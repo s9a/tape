@@ -1,0 +1,29 @@
+:root {
+  --pump-level: 1;
+  --volume-0: 0rem;
+  --volume-1: calc(.5rem + .5vw + .1vh);
+  --volume-2: calc(2 * var(--pump-level) * var(--volume-1));
+  --volume-3: calc(3 * var(--pump-level) * var(--volume-1));
+  --volume-4: calc(4 * var(--pump-level) * var(--volume-1));
+  --volume-5: calc(5 * var(--pump-level) * var(--volume-1));
+  --volume-6: calc(6 * var(--pump-level) * var(--volume-1));
+  --volume-7: calc(7 * var(--pump-level) * var(--volume-1));
+  --volume-8: calc(8 * var(--pump-level) * var(--volume-1));
+  --volume-9: calc(9 * var(--pump-level) * var(--volume-1));
+  --volume-10: calc(10 * var(--pump-level) * var(--volume-1));
+}
+
+.pump-down { --pump-level: .5 }
+.pump-up { --pump-level: 1.5 }
+
+.volume-0 { font-size: 0; line-height: 0 }
+.volume-1 { font-size: var(--volume-1) }
+.volume-2 { font-size: var(--volume-2) }
+.volume-3 { font-size: var(--volume-3) }
+.volume-4 { font-size: var(--volume-4) }
+.volume-5 { font-size: var(--volume-5) }
+.volume-6 { font-size: var(--volume-6) }
+.volume-7 { font-size: var(--volume-7) }
+.volume-8 { font-size: var(--volume-8) }
+.volume-9 { font-size: var(--volume-9) }
+.volume-10 { font-size: var(--volume-10) }
