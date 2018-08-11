@@ -1,0 +1,38 @@
+:root {
+  --tape-white: #f5f5f5;
+  --tape-black: #090909;
+  --tape-pink: #fbbfff;
+  --tape-yellow: #eee833;
+  --tape-blue: #11dff1;
+  --tape-green: #44f477;
+}
+
+.tape-white { --tape-hex: var(--tape-white) }
+.tape-blue { --tape-hex: var(--tape-blue) }
+.tape-pink { --tape-hex: var(--tape-pink) }
+.tape-green { --tape-hex: var(--tape-green) }
+.tape-yellow { --tape-hex: var(--tape-yellow) }
+
+.tape-black {
+  background: var(--tape-black) !important;
+  color: var(--tape-hex, var(--tape-white)) !important;
+}
+
+.tape-clean :not(.tape-unclean) {
+  background: transparent;
+  color: inherit;
+}
+
+.tape-flat:not(.tape-unflat),
+.tape-flat :not(.tape-unflat) {
+  border-color: transparent;
+}
+
+.tape-blue,
+.tape-pink,
+.tape-green,
+.tape-yellow,
+.tape-white {
+  background: var(--tape-hex) !important;
+  color: var(--tape-black) !important;
+}
