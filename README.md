@@ -37,30 +37,6 @@
 </aside>
 ```
 
-#### black link
-```html
-<aside class="tape-pink">
-  Stick 4ever.
-  Apply <a class="tape-black" href="https://s9a.github.io/tape/">tape</a>
-</aside>
-```
-
-#### pink link
-
-```html
-<aside class="tape-pink tape-clean">
-  Stick 4ever.
-  Apply <a href="https://s9a.github.io/tape/">tape</a>
-</aside>
-```
-
-```html
-<aside class="tape-pink">
-  Stick 4ever.
-  Apply <a class="tape-clean" href="https://s9a.github.io/tape/">tape</a>
-</aside>
-```
-
 #### cool quote
 ```html
 <blockquote class="tape-blue">
@@ -74,6 +50,39 @@
   Now tape can flow or it can shred.
   Be tape my friend.
 </blockquote>
+```
+
+#### black link
+
+```html
+<a class="tape-black" href="https://s9a.github.io/tape/">tape</a>
+```
+
+```html
+<aside class="tape-pink">
+  Stick 4ever.
+  Apply <a class="tape-black" href="https://s9a.github.io/tape/">tape</a>
+</aside>
+```
+
+#### pink link
+
+```html
+<a class="tape-pink" href="https://s9a.github.io/tape/">tape</a>
+```
+
+```html
+<aside class="tape-pink tape-clean">
+  Stick 4ever.
+  Apply <a href="https://s9a.github.io/tape/">tape</a>
+</aside>
+```
+
+```html
+<aside class="tape-pink">
+  Stick 4ever.
+  Apply <a class="tape-clean" href="https://s9a.github.io/tape/">tape</a>
+</aside>
 ```
 
 #### primary action
