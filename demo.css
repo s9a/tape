@@ -1,10 +1,18 @@
 html { font-family: monospace }
 body { margin: auto; padding: 0 4rem }
 input { max-width: 100% }
+.font-lax { font: inherit }
+.font-400 { font-weight: 400 }
+.font-700 { font-weight: 700 }
 .m-auto { margin: auto }
 .m-down { margin-bottom: 4rem }
 .pad-0 { padding: 0 }
 .pad-1 { padding: 1rem }
+.pad-2 { padding: 2rem }
+.decor-clean:not(.decor-unclean),
+.decor-clean :not(.decor-unclean) {
+  text-decoration: none;
+}
 .list-none { list-style: none }
 .block-flow { display: block }
 .block-flex { display: flex }
