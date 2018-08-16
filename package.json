@@ -1,0 +1,30 @@
+{
+  "name": "@s9a/tape",
+  "version": "0.0.0",
+  "description": "Colors that stick.",
+  "main": "tape.css",
+  "license": "ISC",
+  "homepage": "https://s9a.github.io/tape/",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s9a/tape.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s9a/tape/issues"
+  },
+  "keywords": [
+    "color palette",
+    "color scheme",
+    "color system",
+    "palette",
+    "simple",
+    "colors",
+    "color",
+    "neon",
+    "vibe",
+    "css"
+  ]
+}
