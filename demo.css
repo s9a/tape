@@ -1,3 +1,16 @@
+html { font-family: monospace }
+body { margin: auto; padding: 0 4rem }
+input { max-width: 100% }
+.m-auto { margin: auto }
+.m-down { margin-bottom: 4rem }
+.pad-0 { padding: 0 }
+.pad-1 { padding: 1rem }
+.list-none { list-style: none }
+.block-flow { display: block }
+.block-flex { display: flex }
+.flex-wrap { flex-wrap: wrap }
+.basis-3rd { flex-basis: 33.33333333% }
+
 :root {
   --pump-level: 1;
   --volume-0: 0rem;
