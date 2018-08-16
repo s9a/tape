@@ -1,5 +1,7 @@
 # tape
-[<tt><b>colors that stick.</b></tt>](https://s9a.github.io/tape/)
+[<tt><b>colors that stick.</b></tt>](https://s9a.github.io/tape/) [<b>`@latest`</b>](https://unpkg.com/@s9a/tape@latest) `npm install @s9a/tape`
+
+<code>&lt;link rel="stylesheet" href="<strong>...</strong>tape.css"&gt;</code>
 
 ## [`tape.css`](tape.css)
 
