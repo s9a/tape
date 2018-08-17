@@ -13,11 +13,6 @@
 .tape-green { --tape-hex: var(--tape-green) }
 .tape-yellow { --tape-hex: var(--tape-yellow) }
 
-.tape-black {
-  background: var(--tape-black) !important;
-  color: var(--tape-hex, var(--tape-white)) !important;
-}
-
 .tape-clean:not(.tape-unclean),
 .tape-clean :not(.tape-unclean) {
   background: transparent;
@@ -36,4 +31,9 @@
 .tape-white {
   background: var(--tape-hex) !important;
   color: var(--tape-black) !important;
+}
+
+.tape-black {
+  background: var(--tape-black) !important;
+  color: var(--tape-hex, var(--tape-white)) !important;
 }
