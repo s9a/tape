@@ -10,6 +10,8 @@ input { max-width: 100% }
 .pad-0 { padding: 0 }
 .pad-1 { padding: 1rem }
 .pad-2 { padding: 2rem }
+.pad-3 { padding: 3rem }
+.pad-4 { padding: 4rem }
 .decor-clean:not(.decor-unclean),
 .decor-clean :not(.decor-unclean) {
   text-decoration: none;
