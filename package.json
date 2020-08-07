@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Colors that stick.",
   "main": "tape.css",
-  "license": "ISC",
+  "license": "0BSD",
   "homepage": "https://s9a.github.io/tape/",
   "scripts": {
     "test": "node test"
