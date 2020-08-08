@@ -25,8 +25,8 @@
 
 - `.tape-clean` Let tape color flow deep within scope
 - `.tape-clash` Don't clean this element
-- `.tape-flat` Transparentize borders within scope
-- `.tape-flap` Don't flatten this element
+- `.tape-flat` Make border `transparent`
+- `.tape-flap` Make border `currentColor`
 
 ### examples
 
