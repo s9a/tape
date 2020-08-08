@@ -95,16 +95,9 @@
 #### primary action
 
 ```html
-<fieldset class="tape-white">
-  <button class="tape-black">Save</button>
-  <button>Cancel</button>
-</fieldset>
-```
-
-```html
-<fieldset class="tape-flat tape-white">
-  <button class="tape-flap tape-black">Save</button>
-  <button class="tape-flap">Cancel</button>
+<fieldset class="tape-flat tape-black">
+  <button class="tape-flap tape-green">Save</button>
+  <button class="tape-flap tape-clean">Cancel</button>
 </fieldset>
 ```
 
