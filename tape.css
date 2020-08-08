@@ -19,10 +19,8 @@
   color: inherit;
 }
 
-.tape-flat:not(.tape-flap),
-.tape-flat :not(.tape-flap) {
-  border-color: transparent;
-}
+.tape-flat { border-color: transparent }
+.tape-flap { border-color: currentColor }
 
 .tape-blue,
 .tape-pink,
