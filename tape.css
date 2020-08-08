@@ -13,14 +13,14 @@
 .tape-green { --tape-hex: var(--tape-green) }
 .tape-yellow { --tape-hex: var(--tape-yellow) }
 
-.tape-clean:not(.tape-unclean),
-.tape-clean :not(.tape-unclean) {
+.tape-clean:not(.tape-clash),
+.tape-clean :not(.tape-clash) {
   background: transparent;
   color: inherit;
 }
 
-.tape-flat:not(.tape-unflat),
-.tape-flat :not(.tape-unflat) {
+.tape-flat:not(.tape-flap),
+.tape-flat :not(.tape-flap) {
   border-color: transparent;
 }
 

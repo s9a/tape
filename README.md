@@ -23,10 +23,10 @@
 
 **composable mods.** Remember to style interactive elements with visual affordance. Link underline etc.
 
-- `.tape-clean` Override coloring within
-- `.tape-unclean` Override `.tape-clean` on specific element
-- `.tape-flat` Transparentize borders within
-- `.tape-unflat` Override `.tape-flat` on specific element
+- `.tape-clean` Let tape color flow deep within scope
+- `.tape-clash` Don't clean this element
+- `.tape-flat` Transparentize borders within scope
+- `.tape-flap` Don't flatten this element
 
 ### examples
 
@@ -103,8 +103,8 @@
 
 ```html
 <fieldset class="tape-flat tape-white">
-  <button class="tape-unflat tape-black">Save</button>
-  <button class="tape-unflat">Cancel</button>
+  <button class="tape-flap tape-black">Save</button>
+  <button class="tape-flap">Cancel</button>
 </fieldset>
 ```
 
