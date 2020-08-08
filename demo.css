@@ -1,6 +1,7 @@
 html { font-family: monospace }
 body { margin: auto; padding: 0 4rem }
-input { max-width: 100% }
+input { font: inherit; max-width: 100% }
+button { font: inherit }
 .font-lax { font: inherit }
 .font-400 { font-weight: 400 }
 .font-700 { font-weight: 700 }
