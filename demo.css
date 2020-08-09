@@ -1,10 +1,8 @@
-html { font-family: monospace }
 body { margin: auto; padding: 0 4rem }
 input { font: inherit; max-width: 100% }
 button { font: inherit }
-.font-lax { font: inherit }
-.font-400 { font-weight: 400 }
-.font-700 { font-weight: 700 }
+.mold { font: inherit }
+.bold { font-weight: bold }
 .m-auto { margin: auto }
 .m-duck { margin-bottom: 2rem }
 .m-down { margin-bottom: 4rem }
@@ -13,10 +11,7 @@ button { font: inherit }
 .pad-2 { padding: 2rem }
 .pad-3 { padding: 3rem }
 .pad-4 { padding: 4rem }
-.decor-clean:not(.decor-unclean),
-.decor-clean :not(.decor-unclean) {
-  text-decoration: none;
-}
+.pad-5 { padding: 5rem }
 .list-none { list-style: none }
 .inline-root { display: inline-block }
 .block-flow { display: block }
@@ -25,11 +20,20 @@ button { font: inherit }
 .basis-3rd { flex-basis: 33.33333333% }
 .basis-2nd { flex-basis: 50% }
 .dot-after::after { content: "." }
-.text-end { text-align: right; text-align: end }
 
-:root {
+.text-end {
+  text-align: right;
+  text-align: end;
+}
+
+.marvin {
+  margin-inline-start: var(--volume-1);
+  margin-inline-end: var(--volume-1);
+}
+
+html {
+  font-family: monospace;
   --pump-level: 1;
-  --volume-0: 0rem;
   --volume-1: calc(.5rem + .5vw + .1vh);
   --volume-2: calc(2 * var(--pump-level) * var(--volume-1));
   --volume-3: calc(3 * var(--pump-level) * var(--volume-1));
@@ -41,9 +45,6 @@ button { font: inherit }
   --volume-9: calc(9 * var(--pump-level) * var(--volume-1));
   --volume-10: calc(10 * var(--pump-level) * var(--volume-1));
 }
-
-.pump-down { --pump-level: .5 }
-.pump-up { --pump-level: 1.5 }
 
 .volume-0 { font-size: 0 }
 .volume-1 { font-size: var(--volume-1) }
