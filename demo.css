@@ -57,3 +57,8 @@ html {
 .volume-8 { font-size: var(--volume-8) }
 .volume-9 { font-size: var(--volume-9) }
 .volume-10 { font-size: var(--volume-10) }
+
+::selection {
+  color: black;
+  background: coral;
+}
