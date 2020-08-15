@@ -27,6 +27,7 @@
 - `.tape-clash` Don't clean this element
 - `.tape-flat` Make border `transparent`
 - `.tape-flap` Make border `currentColor`
+- `.tape-erase` Erase text for screenshot art
 
 ### examples
 
