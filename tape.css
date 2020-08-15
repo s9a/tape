@@ -35,3 +35,8 @@
   background: var(--tape-black) !important;
   color: var(--tape-hex, var(--tape-white)) !important;
 }
+
+.tape-erase,
+.tape-erase * {
+  color: transparent !important;
+}
