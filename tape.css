@@ -5,6 +5,7 @@
   --tape-yellow: #eee833;
   --tape-blue: #11dff1;
   --tape-green: #44f477;
+  --tape-filter: none;
 }
 
 @media (prefers-contrast: less) {
@@ -34,6 +35,7 @@
 .tape-green,
 .tape-yellow,
 .tape-white {
+  filter: var(--tape-filter);
   background: var(--tape-hex) !important;
   color: var(--tape-black) !important;
 }
