@@ -1,28 +1,33 @@
 {
   "name": "@s9a/tape",
-  "version": "0.3.0",
-  "description": "Colors that stick.",
+  "version": "0.4.0",
+  "description": "vivid colors that stick since 2018",
   "main": "tape.css",
   "license": "0BSD",
-  "homepage": "https://s9a.github.io/tape/",
+  "homepage": "https://s9a.github.io/tape",
+  "funding": "https://github.com/orgs/s9a/people",
   "scripts": {
+    "firefox": "open -a firefox index.html || start firefox index.html",
+    "start": "npm run firefox",
     "test": "node test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/s9a/tape.git"
-  },
+  "repository": "github:s9a/tape",
   "bugs": {
     "url": "https://github.com/s9a/tape/issues"
   },
   "keywords": [
+    "prefers-contrast",
     "color palette",
     "color scheme",
     "color system",
+    "colorful",
+    "contrast",
     "palette",
-    "simple",
+    "colours",
     "colors",
+    "colour",
     "color",
+    "vivid",
     "neon",
     "vibe",
     "css"
