@@ -138,4 +138,16 @@
 </fieldset>
 ```
 
+#### filter interaction
+
+```css
+:focus {
+  --tape-filter: invert(100%);
+}
+
+:link:hover {
+  --tape-filter: hue-rotate(120deg);
+}
+```
+
 [<tt><b>tape online. :D</b></tt>](https://s9a.github.io/tape/)
