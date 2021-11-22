@@ -1,4 +1,4 @@
-# [0BSD](https://choosealicense.com/licenses/0bsd/) &copy; [s9a](https://github.com/s9a)
+## [BSD Zero Clause License](https://choosealicense.com/licenses/0bsd/) <small>&copy; [s9a](https://github.com/s9a)</small>
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted.
