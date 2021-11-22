@@ -7,6 +7,13 @@
   --tape-green: #44f477;
 }
 
+@media (prefers-contrast: less) {
+  :root {
+    --tape-white: #dcdcdc;
+    --tape-black: #272727;
+  }
+}
+
 .tape-white { --tape-hex: var(--tape-white) }
 .tape-blue { --tape-hex: var(--tape-blue) }
 .tape-pink { --tape-hex: var(--tape-pink) }
