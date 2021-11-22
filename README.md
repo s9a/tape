@@ -33,7 +33,7 @@
 #### tape page
 
 ```html
-<html class="tape-white">
+<html class="tape-black">
 ```
 
 #### tape anywhere
