@@ -138,7 +138,7 @@
 </fieldset>
 ```
 
-#### filter interaction
+#### [filter](https://developer.mozilla.org/CSS/filter) [scope](../../pull/42)
 
 ```css
 :focus {
