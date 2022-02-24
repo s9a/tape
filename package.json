@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "description": "vivid colors that stick since 2018",
   "main": "tape.css",
-  "license": "0BSD",
+  "license": "Zlib",
   "homepage": "https://s9a.github.io/tape",
   "funding": "https://github.com/orgs/s9a/people",
   "scripts": {
