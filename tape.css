@@ -41,6 +41,7 @@
 }
 
 .tape-black {
+  filter: var(--tape-filter);
   background: var(--tape-black) !important;
   color: var(--tape-hex, var(--tape-white)) !important;
 }
