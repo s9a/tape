@@ -153,7 +153,7 @@
 
 ```css
 :root {
-  --tape-remix: radial-gradient(orange, violet);
+  --tape-remix: radial-gradient(coral, violet);
 }
 ```
 
