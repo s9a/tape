@@ -6,6 +6,7 @@
   --tape-blue: #11dff1;
   --tape-green: #44f477;
   --tape-filter: none;
+  --tape-mix: transparent;
 }
 
 @media (prefers-contrast: less) {
@@ -35,15 +36,21 @@
 .tape-green,
 .tape-yellow,
 .tape-white {
-  filter: var(--tape-filter);
-  background: var(--tape-hex) !important;
+  --tape-mix: var(--tape-hex);
+  --tape-remix: radial-gradient(var(--tape-mix), var(--tape-mix));
   color: var(--tape-black) !important;
+  background-color: var(--tape-hex) !important;
+  background-image: var(--tape-remix);
+  filter: var(--tape-filter);
 }
 
 .tape-black {
-  filter: var(--tape-filter);
-  background: var(--tape-black) !important;
+  --tape-mix: var(--tape-black);
+  --tape-remix: radial-gradient(var(--tape-mix), var(--tape-mix));
   color: var(--tape-hex, var(--tape-white)) !important;
+  background-color: var(--tape-black) !important;
+  background-image: var(--tape-remix);
+  filter: var(--tape-filter);
 }
 
 .tape-erase,

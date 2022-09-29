@@ -149,4 +149,14 @@
 }
 ```
 
-[<tt><b>tape online. :D</b></tt>](https://s9a.github.io/tape/)
+#### [imagine](https://developer.mozilla.org/CSS/gradient)
+
+```css
+:root {
+  --tape-remix: radial-gradient(orange, violet);
+}
+```
+
+#### [testing](https://webmural.com/testing)
+
+[<tt><b>tape online</b></tt>](https://s9a.github.io/tape/) [sans shame](https://webmural.com/shame)
