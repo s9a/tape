@@ -60,5 +60,9 @@ html {
 
 ::selection {
   color: black;
-  background: coral;
+  background: blueviolet;
+}
+
+:focus {
+  outline: thick dotted;
 }

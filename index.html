@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html lang="en-US" class="tape-yellow">
+<html lang="en-US" class="tape-pink imagine">
 <meta charset="utf-8">
-<meta name="theme-color" content="#eee833">
+<meta name="theme-color" content="#fbbfff">
 <meta name="color-scheme" content="light">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width">
 
 <title>tape: vivid colors that stick</title>
 
+<link rel="stylesheet" href="demo.css">
 <link rel="stylesheet" href="tape.css">
+
 <style>
-  :root {
-    --tape-remix: radial-gradient(coral, violet);
+  .imagine {
+    --tape-remix: radial-gradient(
+      circle at center,
+      var(--tape-green),
+      var(--tape-blue),
+      var(--tape-yellow),
+      var(--tape-pink)
+    );
   }
 </style>
-<link rel="stylesheet" href="demo.css">
+
 <link rel="icon" href="https://user-images.githubusercontent.com/949985/45119529-95770b00-b110-11e8-9679-8e97026c83d4.png">
-<link rel="canonical" href="https://s9a.github.io/tape">
+<link rel="canonical" href="https://s9a.page/tape">
+<link rel href="https://s9a.github.io/tape">
 
 <meta name="description" content="opensource tape color system for vivid web design with plug and play ">
 <meta property="og:description" content="LoFi color code">
@@ -162,6 +171,7 @@
   </figure>
 </figure>
 
-<footer class="m-auto m-down volume-5 bold">
-  <a class="tape-blue" href="https://s9a.github.io">s9a</a>/<a class="tape-blue" href="https://github.com/s9a/tape">tape</a>
+<footer class="m-auto m-down volume-5 bold" style="--tape-pink:hotpink">
+  <a class="tape-pink" href="https://s9a.page">s9a</a>
+  <a class="tape-black" href="https://github.com/s9a/tape">tape</a>
 </footer>
