@@ -18,17 +18,28 @@
 - `.tape-black.tape-blue` blue on black
 - `.tape-black.tape-green` green on black
 
-## behavior
+## compose
 
-**composable mods.** Remember to style interactive elements with visual affordance. Link underline etc.
+- `.tape-clean` flow tape color deep within scope
+- `.tape-clash` skip cleaning this element
+- `.tape-flat` border `transparent`
+- `.tape-flap` border `currentColor`
+- `.tape-erase` erase text for screenshot art
 
-- `.tape-clean` Let tape color flow deep within scope
-- `.tape-clash` Don't clean this element
-- `.tape-flat` Make border `transparent`
-- `.tape-flap` Make border `currentColor`
-- `.tape-erase` Erase text for screenshot art
+## [`var`](tape.css)
 
-## samples
+- `--tape-black`
+- `--tape-white`
+- `--tape-pink`
+- `--tape-yellow`
+- `--tape-green`
+- `--tape-blue`
+- `--tape-hex` is current neon
+- `--tape-mix` is current background color
+- [`--tape-remix`](#imagine)
+- [`--tape-filter`](#filter)
+
+## [samples](https://s9a.page)
 
 ### tape page
 
@@ -62,37 +73,37 @@
 ### black link
 
 ```html
-<a class="tape-black" href="https://s9a.github.io/tape/">tape</a>
+<a class="tape-black" href="https://s9a.page/tape">tape</a>
 ```
 
 ```html
 <aside class="tape-pink">
   Stick 4ever.
-  Apply <a class="tape-black" href="https://s9a.github.io/tape/">tape</a>
+  Apply <a class="tape-black" href="https://s9a.page/tape">tape</a>
 </aside>
 ```
 
 ### pink link
 
 ```html
-<a class="tape-pink" href="https://s9a.github.io/tape/">tape</a>
+<a class="tape-pink" href="https://s9a.page/tape">tape</a>
 ```
 
 ```html
 <aside class="tape-pink tape-clean">
   Stick 4ever.
-  Apply <a href="https://s9a.github.io/tape/">tape</a>
+  Apply <a href="https://s9a.page/tape">tape</a>
 </aside>
 ```
 
 ```html
 <aside class="tape-pink">
   Stick 4ever.
-  Apply <a class="tape-clean" href="https://s9a.github.io/tape/">tape</a>
+  Apply <a class="tape-clean" href="https://s9a.page/tape">tape</a>
 </aside>
 ```
 
-### primary action
+### prime action
 
 ```html
 <fieldset class="tape-flat tape-black">
@@ -104,7 +115,7 @@
 ### creative tone
 
 ```html
-<fieldset class="tape-yellow">
+<fieldset class="tape-pink">
   <label>
     <b>Create name</b>
     <input class="tape-white">
@@ -113,10 +124,10 @@
 </fieldset>
 ```
 
-### denial tone
+### sting tone
 
 ```html
-<fieldset class="tape-pink">
+<fieldset class="tape-yellow">
   <label>
     <b>Create name</b>
     <input class="tape-white">
@@ -125,10 +136,10 @@
 </fieldset>
 ```
 
-### success tone
+### peace tone
 
 ```html
-<fieldset class="tape-green">
+<fieldset class="tape-blue">
   <label>
     <b>Create name</b>
     <input class="tape-white">
@@ -137,7 +148,7 @@
 </fieldset>
 ```
 
-### [filter](https://developer.mozilla.org/CSS/filter) [scope](../../pull/42)
+## [filter](https://developer.mozilla.org/CSS/filter)
 
 ```css
 :focus {
@@ -149,7 +160,7 @@
 }
 ```
 
-### [imagine](https://developer.mozilla.org/CSS/gradient)
+## [imagine](https://developer.mozilla.org/CSS/gradient)
 
 ```css
 :root {
@@ -157,6 +168,6 @@
 }
 ```
 
-### [testing](https://webmural.com/testing)
+## [testing](https://webmural.com/testing)
 
-[<tt><b>tape online</b></tt>](https://s9a.github.io/tape/) [sans shame](https://webmural.com/shame)
+[<tt>tape online</tt>](https://s9a.page/tape) [**sans shame**](https://webmural.com/shame)
