@@ -1,3 +1,29 @@
+/* demo samples */
+
+.imagine {
+  --tape-remix: radial-gradient(
+    circle at center,
+    var(--tape-green),
+    var(--tape-blue),
+    var(--tape-yellow),
+    var(--tape-pink)
+  );
+}
+
+.hella {
+  --tape-remix: radial-gradient(orchid, #bae);
+}
+
+.honey {
+  --tape-remix: radial-gradient(orange, violet);
+}
+
+@media (prefers-color-scheme: dark) {
+  .current {
+    --tape-hex: #dcdcdc;
+  }
+}
+
 body { margin: auto; padding: 0 4rem }
 input { font: inherit; max-width: 100% }
 button { font: inherit }
