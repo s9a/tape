@@ -4,7 +4,7 @@
 
 ## [`tape.css`](tape.css)
 
-### palette
+## palette
 
 - `.tape-white` black on white
 - `.tape-yellow` black on yellow
@@ -18,7 +18,7 @@
 - `.tape-black.tape-blue` blue on black
 - `.tape-black.tape-green` green on black
 
-### behavior
+## behavior
 
 **composable mods.** Remember to style interactive elements with visual affordance. Link underline etc.
 
@@ -28,15 +28,15 @@
 - `.tape-flap` Make border `currentColor`
 - `.tape-erase` Erase text for screenshot art
 
-### examples
+## samples
 
-#### tape page
+### tape page
 
 ```html
 <html class="tape-black">
 ```
 
-#### tape anywhere
+### tape anywhere
 
 ```html
 <aside class="tape-yellow">
@@ -44,7 +44,7 @@
 </aside>
 ```
 
-#### cool quote
+### cool quote
 ```html
 <blockquote class="tape-blue">
   I said empty your mind.
@@ -59,7 +59,7 @@
 </blockquote>
 ```
 
-#### black link
+### black link
 
 ```html
 <a class="tape-black" href="https://s9a.github.io/tape/">tape</a>
@@ -72,7 +72,7 @@
 </aside>
 ```
 
-#### pink link
+### pink link
 
 ```html
 <a class="tape-pink" href="https://s9a.github.io/tape/">tape</a>
@@ -92,7 +92,7 @@
 </aside>
 ```
 
-#### primary action
+### primary action
 
 ```html
 <fieldset class="tape-flat tape-black">
@@ -101,7 +101,7 @@
 </fieldset>
 ```
 
-#### creative tone
+### creative tone
 
 ```html
 <fieldset class="tape-yellow">
@@ -113,7 +113,7 @@
 </fieldset>
 ```
 
-#### denial tone
+### denial tone
 
 ```html
 <fieldset class="tape-pink">
@@ -125,7 +125,7 @@
 </fieldset>
 ```
 
-#### success tone
+### success tone
 
 ```html
 <fieldset class="tape-green">
@@ -137,7 +137,7 @@
 </fieldset>
 ```
 
-#### [filter](https://developer.mozilla.org/CSS/filter) [scope](../../pull/42)
+### [filter](https://developer.mozilla.org/CSS/filter) [scope](../../pull/42)
 
 ```css
 :focus {
@@ -149,7 +149,7 @@
 }
 ```
 
-#### [imagine](https://developer.mozilla.org/CSS/gradient)
+### [imagine](https://developer.mozilla.org/CSS/gradient)
 
 ```css
 :root {
@@ -157,6 +157,6 @@
 }
 ```
 
-#### [testing](https://webmural.com/testing)
+### [testing](https://webmural.com/testing)
 
 [<tt><b>tape online</b></tt>](https://s9a.github.io/tape/) [sans shame](https://webmural.com/shame)
