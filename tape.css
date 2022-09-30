@@ -1,6 +1,6 @@
 :root {
-  --tape-white: #e9e9e9;
   --tape-black: #090909;
+  --tape-white: #e9e9e9;
   --tape-pink: #fbbfff;
   --tape-yellow: #eee833;
   --tape-blue: #11dff1;
@@ -16,6 +16,7 @@
   }
 }
 
+.tape-black,
 .tape-white { --tape-hex: var(--tape-white) }
 .tape-blue { --tape-hex: var(--tape-blue) }
 .tape-pink { --tape-hex: var(--tape-pink) }
@@ -31,26 +32,23 @@
 .tape-flat { border-color: transparent }
 .tape-flap { border-color: currentColor }
 
+.tape-black,
 .tape-blue,
 .tape-pink,
 .tape-green,
 .tape-yellow,
 .tape-white {
   --tape-mix: var(--tape-hex);
-  --tape-remix: radial-gradient(var(--tape-mix), var(--tape-mix));
+  --tape-remix: radial-gradient(transparent, transparent);
   color: var(--tape-black) !important;
-  background-color: var(--tape-hex) !important;
+  background-color: var(--tape-mix) !important;
   background-image: var(--tape-remix);
   filter: var(--tape-filter);
 }
 
 .tape-black {
   --tape-mix: var(--tape-black);
-  --tape-remix: radial-gradient(var(--tape-mix), var(--tape-mix));
-  color: var(--tape-hex, var(--tape-white)) !important;
-  background-color: var(--tape-black) !important;
-  background-image: var(--tape-remix);
-  filter: var(--tape-filter);
+  color: var(--tape-hex) !important;
 }
 
 .tape-erase,
