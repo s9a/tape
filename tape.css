@@ -12,7 +12,7 @@
 @media (prefers-contrast: less) {
   :root {
     --tape-white: #dcdcdc;
-    --tape-black: #272727;
+    --tape-black: #181818;
   }
 }
 
