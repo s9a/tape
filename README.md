@@ -108,7 +108,7 @@ having `tape-flow` on your root or body to flow color thru the whole page
 </aside>
 ```
 
-### freestyle
+### [freestyle](https://s9a.page)
 
 ```html
 <a href="#sample" class="tape-pink" style="--tape-hex:hotpink">hotpink</a>
@@ -177,6 +177,8 @@ having `tape-flow` on your root or body to flow color thru the whole page
   --tape-filter: hue-rotate(120deg);
 }
 ```
+
+### trine
 
 ```css
 .twist {
