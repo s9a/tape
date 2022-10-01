@@ -81,6 +81,12 @@ having `tape-flow` on your root or body to flow color thru the whole page
 <a class="tape-black" href="#sample">tape</a>
 ```
 
+### black pink
+
+```html
+<a class="tape-black tape-pink" href="#sample">tape</a>
+```
+
 ```html
 <aside class="tape-pink">
   Stick 4ever.
