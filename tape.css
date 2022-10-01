@@ -22,15 +22,13 @@
 .tape-pink { --tape-hex: var(--tape-pink) }
 .tape-green { --tape-hex: var(--tape-green) }
 .tape-yellow { --tape-hex: var(--tape-yellow) }
-
-.tape-clean:not(.tape-clash),
-.tape-clean :not(.tape-clash) {
-  background: transparent;
-  color: inherit;
-}
-
 .tape-flat { border-color: transparent }
 .tape-flap { border-color: currentColor }
+.tape-flow { --tape-remix: none }
+.tape-flow :not(.tape-skip) {
+  background-color: transparent;
+  color: inherit;
+}
 
 .tape-black,
 .tape-blue,
@@ -39,7 +37,7 @@
 .tape-yellow,
 .tape-white {
   --tape-mix: var(--tape-hex);
-  --tape-remix: radial-gradient(transparent, transparent);
+  --tape-remix: none;
   color: var(--tape-black) !important;
   background-color: var(--tape-mix) !important;
   background-image: var(--tape-remix);
