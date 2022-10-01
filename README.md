@@ -20,8 +20,8 @@
 
 ## compose
 
-- `.tape-clean` flow tape color deep within scope
-- `.tape-clash` skip cleaning this element
+- `.tape-flow` flow color within scope
+- `.tape-skip` skip color within flow
 - `.tape-flat` border `transparent`
 - `.tape-flap` border `currentColor`
 - `.tape-erase` erase text for screenshot art
@@ -30,21 +30,21 @@
 
 - `--tape-black`
 - `--tape-white`
-- `--tape-pink`
-- `--tape-yellow`
-- `--tape-green`
-- `--tape-blue`
+- `--tape-pink` warm
+- `--tape-yellow` fresh
+- `--tape-green` lush
+- `--tape-blue` cool
 - `--tape-hex` is current neon
 - `--tape-mix` is current background color
-- [`--tape-remix`](#imagine)
-- [`--tape-filter`](#filter)
+- [`--tape-remix`](#imagine) imagine
+- [`--tape-filter`](#filter) hue
 
 ## [samples](https://s9a.page)
 
 ### tape page
 
 ```html
-<html class="tape-black">
+<html class="tape-flow tape-black">
 ```
 
 ### tape anywhere
@@ -90,7 +90,7 @@
 ```
 
 ```html
-<aside class="tape-pink tape-clean">
+<aside class="tape-pink tape-flow">
   Stick 4ever.
   Apply <a href="https://s9a.page/tape">tape</a>
 </aside>
@@ -99,7 +99,7 @@
 ```html
 <aside class="tape-pink">
   Stick 4ever.
-  Apply <a class="tape-clean" href="https://s9a.page/tape">tape</a>
+  Apply <a class="tape-flow" href="https://s9a.page/tape">tape</a>
 </aside>
 ```
 
@@ -108,7 +108,7 @@
 ```html
 <fieldset class="tape-flat tape-black">
   <button class="tape-flap tape-green">Save</button>
-  <button class="tape-flap tape-clean">Cancel</button>
+  <button class="tape-flap tape-flow">Cancel</button>
 </fieldset>
 ```
 
@@ -148,6 +148,14 @@
 </fieldset>
 ```
 
+## [imagine](https://developer.mozilla.org/CSS/gradient)
+
+```css
+:root {
+  --tape-remix: radial-gradient(coral, violet);
+}
+```
+
 ## [filter](https://developer.mozilla.org/CSS/filter)
 
 ```css
@@ -160,11 +168,13 @@
 }
 ```
 
-## [imagine](https://developer.mozilla.org/CSS/gradient)
-
 ```css
-:root {
-  --tape-remix: radial-gradient(coral, violet);
+.twist {
+  --tape-filter: hue-rotate(120deg);
+}
+
+.shout {
+  --tape-filter: hue-rotate(240deg);
 }
 ```
 

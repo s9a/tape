@@ -18,6 +18,14 @@
   --tape-remix: radial-gradient(orange, violet);
 }
 
+.twist {
+  --tape-filter: hue-rotate(120deg);
+}
+
+.shout {
+  --tape-filter: hue-rotate(240deg);
+}
+
 @media (prefers-color-scheme: dark) {
   .current {
     --tape-hex: #dcdcdc;
@@ -40,9 +48,8 @@ button { font: inherit }
 .pad-5 { padding: 5rem }
 .list-none { list-style: none }
 .inline-root { display: inline-block }
-.block-flow { display: block }
-.block-flex { display: flex }
-.flex-wrap { flex-wrap: wrap }
+.party { display: block }
+.fiesta { display: flex; flex-wrap: wrap }
 .basis-3rd { flex-basis: 33.33333333% }
 .basis-2nd { flex-basis: 50% }
 .dot-after::after { content: "." }
