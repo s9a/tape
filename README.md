@@ -12,13 +12,16 @@
 - `.tape-blue` black on blue
 - `.tape-green` black on green
 - `.tape-black` parent on black
+
+## [compose](https://s9a.page/tape#compose)
+
 - `.tape-black.tape-white` white on black
 - `.tape-black.tape-yellow` yellow on black
 - `.tape-black.tape-pink` pink on black
 - `.tape-black.tape-blue` blue on black
 - `.tape-black.tape-green` green on black
 
-## [compose](https://s9a.page/tape#compose)
+## [distribute](../../releases)
 
 - `.tape-flow` flow color within scope
 - `.tape-skip` skip color within flow
