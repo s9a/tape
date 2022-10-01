@@ -1,10 +1,10 @@
-# [<tt>tape</tt>](https://s9a.github.io/tape)
+# [<tt>tape</tt>](https://s9a.page/tape)
 
 #### [<tt>seek releases</tt>](../../releases) or <code><a href="https://docs.npmjs.com/cli">npm install</a> <a href="https://npm.im/@s9a/tape">@s9a/tape</a></code>
 
 ## [`tape.css`](tape.css)
 
-## palette
+## [palette](https://s9a.page/tape)
 
 - `.tape-white` black on white
 - `.tape-yellow` black on yellow
@@ -18,7 +18,7 @@
 - `.tape-black.tape-blue` blue on black
 - `.tape-black.tape-green` green on black
 
-## compose
+## [compose](https://s9a.page/tape#compose)
 
 - `.tape-flow` flow color within scope
 - `.tape-skip` skip color within flow
@@ -41,11 +41,13 @@
 
 ## [samples](https://s9a.page)
 
-### tape page
+### tape flow
 
 ```html
 <html class="tape-flow tape-black">
 ```
+
+having `tape-flow` on your root or body to flow color thru the whole page
 
 ### tape anywhere
 
@@ -73,79 +75,84 @@
 ### black link
 
 ```html
-<a class="tape-black" href="https://s9a.page/tape">tape</a>
+<a class="tape-black" href="#sample">tape</a>
 ```
 
 ```html
 <aside class="tape-pink">
   Stick 4ever.
-  Apply <a class="tape-black" href="https://s9a.page/tape">tape</a>
+  Apply <a class="tape-black" href="#sample">tape</a>
 </aside>
 ```
 
-### pink link
+### neon link
 
 ```html
-<a class="tape-pink" href="https://s9a.page/tape">tape</a>
+<a class="tape-pink" href="#sample">tape</a>
 ```
 
 ```html
 <aside class="tape-pink tape-flow">
   Stick 4ever.
-  Apply <a href="https://s9a.page/tape">tape</a>
+  Apply <a href="#sample">tape</a>
 </aside>
 ```
 
 ```html
 <aside class="tape-pink">
   Stick 4ever.
-  Apply <a class="tape-flow" href="https://s9a.page/tape">tape</a>
+  Apply <a class="tape-flow" href="#sample">tape</a>
 </aside>
 ```
 
-### prime action
+### freestyle
 
 ```html
-<fieldset class="tape-flat tape-black">
-  <button class="tape-flap tape-green">Save</button>
-  <button class="tape-flap tape-flow">Cancel</button>
-</fieldset>
+<a href="#sample" class="tape-pink" style="--tape-hex:hotpink">hotpink</a>
+```
+
+```html
+<nav class="tape-flow" style="--tape-pink:deeppink">
+  <a href="#sample" class="tape-pink">deeppink</a>
+</nav>
 ```
 
 ### creative tone
 
 ```html
-<fieldset class="tape-pink">
-  <label>
-    <b>Create name</b>
-    <input class="tape-white">
-    <strong>Imagine :)</strong>
-  </label>
-</fieldset>
+<label class="tape-pink">
+  <b>Create name</b>
+  <input class="tape-white">
+  <strong>Imagine :)</strong>
+</label>
 ```
 
 ### sting tone
 
 ```html
-<fieldset class="tape-yellow">
-  <label>
-    <b>Create name</b>
-    <input class="tape-white">
-    <strong>Taken :(</strong>
-  </label>
-</fieldset>
+
+<label class="tape-yellow">
+  <b>Create name</b>
+  <input class="tape-white">
+  <strong>Taken :(</strong>
+</label>
 ```
 
 ### peace tone
 
 ```html
-<fieldset class="tape-blue">
-  <label>
-    <b>Create name</b>
-    <input class="tape-white">
-    <strong>Yes =)</strong>
-  </label>
-</fieldset>
+<label class="tape-blue">
+  <b>Create name</b>
+  <input class="tape-white">
+  <strong>Yes =)</strong>
+</label>
+```
+
+### saving grace
+
+```html
+<button class="tape-flap tape-green">Save</button>
+<button class="tape-flap tape-flow">Cancel</button>
 ```
 
 ## [imagine](https://developer.mozilla.org/CSS/gradient)
