@@ -1,4 +1,4 @@
-/* demo samples */
+/* enjoy demo samples */
 
 .imagine {
   --tape-remix: radial-gradient(
@@ -35,6 +35,7 @@
 body { margin: auto; padding: 0 4rem }
 input { font: inherit; max-width: 100% }
 button { font: inherit }
+figure { contain: content }
 .mold { font: inherit }
 .bold { font-weight: bold }
 .m-auto { margin: auto }
@@ -46,12 +47,10 @@ button { font: inherit }
 .pad-3 { padding: 3rem }
 .pad-4 { padding: 4rem }
 .pad-5 { padding: 5rem }
-.list-none { list-style: none }
-.inline-root { display: inline-block }
-.party { display: block }
+.party { display: block; contain: content }
 .fiesta { display: flex; flex-wrap: wrap }
-.basis-3rd { flex-basis: 33.33333333% }
-.basis-2nd { flex-basis: 50% }
+.trio { list-style: none; flex-basis: 33.33333333% }
+.duet { list-style: none; flex-basis: 50% }
 .dot-after::after { content: "." }
 
 .text-end {

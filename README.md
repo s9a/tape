@@ -1,10 +1,11 @@
-# [<tt>tape</tt>](https://s9a.page/tape)
-
-#### [<tt>seek releases</tt>](../../releases) or <code><a href="https://docs.npmjs.com/cli">npm install</a> <a href="https://npm.im/@s9a/tape">@s9a/tape</a></code>
+# [<tt>tape</tt>](https://s9a.page/tape) <sub>neon color</sub>
+### seek [releases](../../releases) or <a href="https://npm.im/@s9a/tape">distros</a>
 
 ## [`tape.css`](tape.css)
 
-## [palette](https://s9a.page/tape)
+plug and play [CSS](https://s9a.page/cascade) classes
+
+## [palette](https://s9a.page/tape#palette)
 
 - `.tape-white` black on white
 - `.tape-yellow` black on yellow
@@ -196,6 +197,6 @@ having `tape-flow` on your root or body to flow color thru the whole page
 }
 ```
 
-## [testing](https://webmural.com/testing)
+## [producing](https://s9a.page/tapes)
 
-[<tt>tape online</tt>](https://s9a.page/tape) [**sans shame**](https://webmural.com/shame)
+### [hello tape](https://s9a.page/hellotape) <br> [bye shame](https://webmural.com/shame) <br> [lettuce remixit](https://s9a.page)
