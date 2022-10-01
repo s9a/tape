@@ -12,13 +12,16 @@
 - `.tape-blue` black on blue
 - `.tape-green` black on green
 - `.tape-black` parent on black
+
+## [compose](https://s9a.page/tape#compose)
+
 - `.tape-black.tape-white` white on black
 - `.tape-black.tape-yellow` yellow on black
 - `.tape-black.tape-pink` pink on black
 - `.tape-black.tape-blue` blue on black
 - `.tape-black.tape-green` green on black
 
-## [compose](https://s9a.page/tape#compose)
+## [distribute](../../releases)
 
 - `.tape-flow` flow color within scope
 - `.tape-skip` skip color within flow
@@ -78,6 +81,12 @@ having `tape-flow` on your root or body to flow color thru the whole page
 <a class="tape-black" href="#sample">tape</a>
 ```
 
+### black pink
+
+```html
+<a class="tape-black tape-pink" href="#sample">tape</a>
+```
+
 ```html
 <aside class="tape-pink">
   Stick 4ever.
@@ -105,7 +114,7 @@ having `tape-flow` on your root or body to flow color thru the whole page
 </aside>
 ```
 
-### freestyle
+### [freestyle](https://s9a.page)
 
 ```html
 <a href="#sample" class="tape-pink" style="--tape-hex:hotpink">hotpink</a>
@@ -174,6 +183,8 @@ having `tape-flow` on your root or body to flow color thru the whole page
   --tape-filter: hue-rotate(120deg);
 }
 ```
+
+### trine
 
 ```css
 .twist {
