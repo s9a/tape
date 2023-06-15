@@ -1,7 +1,7 @@
 {
   "name": "@s9a/tape",
   "version": "0.5.0",
-  "description": "vivid colors that stick since 2018",
+  "description": "vivid colors that stick to:ur gums",
   "main": "tape.css",
   "license": "Zlib",
   "homepage": "https://s9a.github.io/tape",
@@ -27,6 +27,7 @@
     "colors",
     "colour",
     "color",
+    "music",
     "vivid",
     "neon",
     "vibe",
