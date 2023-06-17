@@ -1,47 +1,56 @@
-# [<tt>tape</tt>](https://s9a.page/tape) <sub>neon color</sub>
-### seek [releases](../../releases) or <a href="https://npm.im/@s9a/tape">distros</a>
+## [`tape` neon color](https://s9a.page/tape)</sub>
 
-## [`tape.css`](tape.css)
+```html
+<html lang class="tape-black tape-flow">
+<meta charset="utf-8">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0e0e0e">
+<title>play</title>
+```
 
-plug and play [CSS](https://s9a.page/cascade) classes
+### [seek release~s~](../../releases) <br> [aura wurmbath](https://npm.im/@s9a/tape)
+
+## [tape.css](tape.css)
+
+[plug <em>play</em> CSS classes](https://s9a.page/cascade)
 
 ## [palette](https://s9a.page/tape#palette)
 
-- `.tape-white` black on white
-- `.tape-yellow` black on yellow
-- `.tape-pink` black on pink
-- `.tape-blue` black on blue
-- `.tape-green` black on green
-- `.tape-black` parent on black
+* `.tape-white` black on white
+* `.tape-yellow` black on yellow
+* `.tape-pink` black on pink
+* `.tape-blue` black on blue
+* `.tape-green` black on green
+* `.tape-black` parent on black
 
 ## [compose](https://s9a.page/tape#compose)
 
-- `.tape-black.tape-white` white on black
-- `.tape-black.tape-yellow` yellow on black
-- `.tape-black.tape-pink` pink on black
-- `.tape-black.tape-blue` blue on black
-- `.tape-black.tape-green` green on black
+* `.tape-black.tape-white` white on black
+* `.tape-black.tape-yellow` yellow on black
+* `.tape-black.tape-pink` pink on black
+* `.tape-black.tape-blue` blue on black
+* `.tape-black.tape-green` green on black
 
 ## [distribute](../../releases)
 
-- `.tape-flow` flow color within scope
-- `.tape-skip` skip color within flow
-- `.tape-flat` border `transparent`
-- `.tape-flap` border `currentColor`
-- `.tape-erase` erase text for screenshot art
+* `.tape-flow` flow color within scope
+* `.tape-skip` skip color within flow
+* `.tape-flat` border `transparent`
+* `.tape-flap` border `currentColor`
+* `.tape-erase` erase text for screenshot art
 
 ## [`var`](tape.css)
 
-- `--tape-black`
-- `--tape-white`
-- `--tape-pink` warm
-- `--tape-yellow` fresh
-- `--tape-green` lush
-- `--tape-blue` cool
-- `--tape-hex` is current neon
-- `--tape-mix` is current background color
-- [`--tape-remix`](#imagine) imagine
-- [`--tape-filter`](#filter) hue
+* `--tape-black`
+* `--tape-white`
+* `--tape-pink` warm
+* `--tape-yellow` fresh
+* `--tape-green` lush
+* `--tape-blue` cool
+* `--tape-hex` is current neon
+* `--tape-mix` is current background color
+* [`--tape-remix`](#imagine) imagine
+* [`--tape-filter`](#filter) hue
 
 ## [samples](https://s9a.page)
 
@@ -198,5 +207,6 @@ having `tape-flow` on your root or body to flow color thru the whole page
 ```
 
 ## [producing](https://s9a.page/tapes)
+### [hello tape](https://s9a.page/hellotape) <br> [bye shame](https://webmural.com/shame) <br> [lettuce remixit](https://s9a.page) <br> [lifeforce](https://webmural.com/milf) <br> [lavatory](https://webmural.com/tlfr)
 
-### [hello tape](https://s9a.page/hellotape) <br> [bye shame](https://webmural.com/shame) <br> [lettuce remixit](https://s9a.page)
+### [octopus](https://octopus.boo) [moonchild](https://github.com/s9a/tape/commit/5072a403673a6f93a156527acc7fdeef01404ba4)
