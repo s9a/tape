@@ -1,4 +1,9 @@
-/* enjoy demo samples */
+/* 
+  enjoy remixing these samples
+  aurora remixyz inline styles
+  samples webmural.com s9a.page
+  yo energy flows deep ))))))))
+*/
 
 .imagine {
   --tape-remix: radial-gradient(
@@ -26,6 +31,17 @@
   --tape-filter: hue-rotate(240deg);
 }
 
+.shell {
+  --tape-white: seashell;
+}
+
+#hi:target {
+  --tape-blue: mediumslateblue;
+  --tape-pink: violet;
+  --tape-yellow: gold;
+  --tape-green: turquoise;
+}
+
 ::selection {
   color: black;
   background: blueviolet;
@@ -33,69 +49,60 @@
 
 :focus {
   text-decoration-style: dotted;
-  outline: thick groove;
+  outline: 2rem outset;
 }
 
 :hover {
   text-decoration-style: double;
 }
 
-/* throwbacks */
-
-body { margin: auto; padding: 0 4rem }
-input { font: inherit; max-width: 100% }
-button { font: inherit }
-figure { contain: content }
-.mold { font: inherit }
+/* N.E.R.D. ÷ MCR */
+.mold { font: unset }
 .bold { font-weight: bold }
-.m-auto { margin: auto }
-.m-duck { margin-bottom: 2rem }
-.m-down { margin-bottom: 4rem }
-.pad-0 { padding: 0 }
-.pad-1 { padding: 1rem }
-.pad-2 { padding: 2rem }
-.pad-3 { padding: 3rem }
-.pad-4 { padding: 4rem }
-.pad-5 { padding: 5rem }
-.party { display: block; contain: content }
-.fiesta { display: flex; flex-wrap: wrap }
+.moan { margin: auto }
+.moby { margin-bottom: 2rem }
+.nemo { margin-bottom: 4rem }
+.paz { padding: 0 }
+.pad { padding: 1rem }
+.party { display: block; contain: layout }
+.fiesta { display: flex; flex-wrap: wrap; contain: layout }
 .trio { list-style: none; flex-basis: 33.33333333% }
 .duet { list-style: none; flex-basis: 50% }
-.dot-after::after { content: "." }
+.dot::after { content: "." }
+.mime { margin-inline: var(--vol1) }
+.rime { text-align: end }
+html { border-bottom: 4rem double var(--tape-pink) }
+html { font-family: sans-serif }
+body { margin: auto; padding: 0 4rem }
+input { font: unset; max-width: 100% }
+button { font: unset }
+figure { contain: content; margin: auto }
 
-.text-end {
-  text-align: right;
-  text-align: end;
-}
-
-.marvin {
-  margin-inline-start: var(--volume-1);
-  margin-inline-end: var(--volume-1);
-}
+/*
+RE: volume
+s9a.page/volume
+*/
 
 html {
-  font-family: monospace;
-  --pump-level: 1;
-  --volume-1: calc(.5rem + .5vw + .1vh);
-  --volume-2: calc(2 * var(--pump-level) * var(--volume-1));
-  --volume-3: calc(3 * var(--pump-level) * var(--volume-1));
-  --volume-4: calc(4 * var(--pump-level) * var(--volume-1));
-  --volume-5: calc(5 * var(--pump-level) * var(--volume-1));
-  --volume-6: calc(6 * var(--pump-level) * var(--volume-1));
-  --volume-7: calc(7 * var(--pump-level) * var(--volume-1));
-  --volume-8: calc(8 * var(--pump-level) * var(--volume-1));
-  --volume-9: calc(9 * var(--pump-level) * var(--volume-1));
-  --volume-10: calc(10 * var(--pump-level) * var(--volume-1));
+  --pump: 1;
+  --vol1: max(1rem, 1vmax);
+  --vol2: calc(2 * var(--pump) * var(--vol1));
+  --vol3: calc(3 * var(--pump) * var(--vol1));
+  --vol4: calc(4 * var(--pump) * var(--vol1));
+  --vol5: calc(5 * var(--pump) * var(--vol1));
+  --vol6: calc(6 * var(--pump) * var(--vol1));
+  --vol7: calc(7 * var(--pump) * var(--vol1));
+  --vol8: calc(8 * var(--pump) * var(--vol1));
+  --vol9: calc(9 * var(--pump) * var(--vol1));
 }
 
-.volume-0 { font-size: 0 }
-.volume-1 { font-size: var(--volume-1) }
-.volume-2 { font-size: var(--volume-2) }
-.volume-3 { font-size: var(--volume-3) }
-.volume-4 { font-size: var(--volume-4) }
-.volume-5 { font-size: var(--volume-5) }
-.volume-6 { font-size: var(--volume-6) }
-.volume-7 { font-size: var(--volume-7) }
-.volume-8 { font-size: var(--volume-8) }
-.volume-9 { font-size: var(--volume-9) }
-.volume-10 { font-size: var(--volume-10) }
+.vol0 { font-size: 0 }
+.vol1 { font-size: var(--vol1) }
+.vol2 { font-size: var(--vol2) }
+.vol3 { font-size: var(--vol3) }
+.vol4 { font-size: var(--vol4) }
+.vol5 { font-size: var(--vol5) }
+.vol6 { font-size: var(--vol6) }
+.vol7 { font-size: var(--vol7) }
+.vol8 { font-size: var(--vol8) }
+.vol9 { font-size: var(--vol9) }

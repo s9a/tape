@@ -7,9 +7,9 @@
   "homepage": "https://s9a.github.io/tape",
   "funding": "https://github.com/orgs/s9a/people",
   "scripts": {
-    "firefox": "open -a firefox index.html || start firefox index.html",
-    "start": "npm run firefox",
-    "test": "node test"
+    "ff": "open -a firefox index.html || start firefox index.html",
+    "start": "open index.html || start index.html || xdg-open index.html",
+    "test": "npm ls"
   },
   "repository": "github:s9a/tape",
   "bugs": {

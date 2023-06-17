@@ -1,20 +1,22 @@
+/* opensuction s9a.page/tape */
+
 :root {
-  --tape-black: #0e0e0e;
-  --tape-white: #e0e0e0;
+  --tape-filter: none;
+  --tape-blue: #11dff1;
   --tape-pink: #fbbfff;
   --tape-yellow: #eee833;
-  --tape-blue: #11dff1;
   --tape-green: #44f477;
-  --tape-filter: none;
+  --tape-black: #0e0e0e;
+  --tape-white: #e0e0e0;
+  --tape-hex: #e0e0e0;
   --tape-mix: transparent;
-  --tape-hex: var(--tape-white);
 }
 
 .tape-white { --tape-hex: var(--tape-white) }
-.tape-blue { --tape-hex: var(--tape-blue) }
-.tape-pink { --tape-hex: var(--tape-pink) }
 .tape-green { --tape-hex: var(--tape-green) }
 .tape-yellow { --tape-hex: var(--tape-yellow) }
+.tape-pink { --tape-hex: var(--tape-pink) }
+.tape-blue { --tape-hex: var(--tape-blue) }
 .tape-flat { border-color: transparent }
 .tape-flap { border-color: currentColor }
 .tape-flow { --tape-remix: none }
@@ -26,8 +28,8 @@
 .tape-black,
 .tape-blue,
 .tape-pink,
-.tape-green,
 .tape-yellow,
+.tape-green,
 .tape-white {
   --tape-mix: var(--tape-hex);
   --tape-remix: none;
@@ -42,7 +44,7 @@
   color: var(--tape-hex) !important;
 }
 
-.tape-erase,
-.tape-erase * {
+.tape-erase *,
+.tape-erase {
   color: transparent !important;
 }
