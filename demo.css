@@ -26,11 +26,21 @@
   --tape-filter: hue-rotate(240deg);
 }
 
-@media (prefers-color-scheme: dark) {
-  .current {
-    --tape-hex: #dcdcdc;
-  }
+::selection {
+  color: black;
+  background: blueviolet;
 }
+
+:focus {
+  text-decoration-style: dotted;
+  outline: thick groove;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+/* throwbacks */
 
 body { margin: auto; padding: 0 4rem }
 input { font: inherit; max-width: 100% }
@@ -89,12 +99,3 @@ html {
 .volume-8 { font-size: var(--volume-8) }
 .volume-9 { font-size: var(--volume-9) }
 .volume-10 { font-size: var(--volume-10) }
-
-::selection {
-  color: black;
-  background: blueviolet;
-}
-
-:focus {
-  outline: thick dotted;
-}

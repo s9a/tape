@@ -1,6 +1,6 @@
 :root {
-  --tape-black: #090909;
-  --tape-white: #e9e9e9;
+  --tape-black: #0e0e0e;
+  --tape-white: #e0e0e0;
   --tape-pink: #fbbfff;
   --tape-yellow: #eee833;
   --tape-blue: #11dff1;
@@ -10,13 +10,7 @@
   --tape-hex: var(--tape-white);
 }
 
-@media (prefers-contrast: less) {
-  :root {
-    --tape-white: #dcdcdc;
-    --tape-black: #181818;
-  }
-}
-
+.tape-white { --tape-hex: var(--tape-white) }
 .tape-blue { --tape-hex: var(--tape-blue) }
 .tape-pink { --tape-hex: var(--tape-pink) }
 .tape-green { --tape-hex: var(--tape-green) }
