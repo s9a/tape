@@ -63,20 +63,23 @@
 .moby { margin-bottom: 6vh }
 .nemo { margin-bottom: 9vh }
 .paz { padding: 0 }
-.pad { padding: 1rem }
+.pad { padding: 1rem; box-sizing: border-box }
 .party { display: block }
+.parlay { display: table }
 .fiesta { display: flex; flex-wrap: wrap }
-.trio { list-style: none; flex-basis: 33.33333333% }
-.duet { list-style: none; flex-basis: 50% }
+.trio { flex-basis: calc(100% / 3) }
+.duet { flex-basis: 50% }
 .dot::after { content: "." }
 .mime { margin-inline: var(--vol1) }
 .rime { text-align: end }
 html { border-bottom: 9vh double var(--tape-pink) }
 html { font-family: sans-serif }
 body { padding: 0 6vw; margin: auto }
-input { font: unset; max-width: 100% }
+input { font: unset; display: table }
 button { font: unset }
 figure { margin: auto; contain: layout }
+li { list-style: none }
+aside { contain: layout }
 
 /*
 RE: volume
