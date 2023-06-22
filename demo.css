@@ -88,7 +88,7 @@ s9a.page/volume
 
 html {
   --pump: 1;
-  --vol1: max(1rem, 1vmax);
+  --vol1: max(1rem, 1vw);
   --vol2: calc(2 * var(--pump) * var(--vol1));
   --vol3: calc(3 * var(--pump) * var(--vol1));
   --vol4: calc(4 * var(--pump) * var(--vol1));
