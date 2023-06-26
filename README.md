@@ -1,7 +1,7 @@
 ## [`tape` neon color](https://s9a.page/tape)</sub>
 
 ```html
-<html lang class="tape-black tape-flow">
+<html lang class="tape-blaq tape-flow">
 <meta charset="utf-8">
 <meta name="color-scheme" content="dark light">
 <meta name="theme-color" content="#0e0e0e">
@@ -16,20 +16,20 @@
 
 ## [palette](https://s9a.page/tape#palette)
 
-* `.tape-white` black on white
-* `.tape-yellow` black on yellow
-* `.tape-pink` black on pink
-* `.tape-blue` black on blue
-* `.tape-green` black on green
-* `.tape-black` parent on black
+* `.tape-watt` blaq on watt
+* `.tape-loud` blaq on loud
+* `.tape-play` blaq on play
+* `.tape-bluv` blaq on bluv
+* `.tape-luvu` blaq on luvu
+* `.tape-blaq` perm on blaq
 
 ## [compose](https://s9a.page/tape#compose)
 
-* `.tape-black.tape-white` white on black
-* `.tape-black.tape-yellow` yellow on black
-* `.tape-black.tape-pink` pink on black
-* `.tape-black.tape-blue` blue on black
-* `.tape-black.tape-green` green on black
+* `.tape-blaq.tape-watt` watt on blaq
+* `.tape-blaq.tape-loud` loud on blaq
+* `.tape-blaq.tape-play` play on blaq
+* `.tape-blaq.tape-bluv` bluv on blaq
+* `.tape-blaq.tape-luvu` luvu on blaq
 
 ## [distribute](../../releases)
 
@@ -41,12 +41,12 @@
 
 ## [`var`](tape.css)
 
-* `--tape-black`
-* `--tape-white`
-* `--tape-pink` warm
-* `--tape-yellow` fresh
-* `--tape-green` lush
-* `--tape-blue` cool
+* `--tape-blaq` mesh
+* `--tape-watt` bulb
+* `--tape-play` warm
+* `--tape-loud` wind
+* `--tape-luvu` lush
+* `--tape-bluv` cull
 * `--tape-hex` is current neon
 * `--tape-mix` is current background color
 * [`--tape-remix`](#imagine) imagine
@@ -57,7 +57,7 @@
 ### tape flow
 
 ```html
-<html class="tape-flow tape-black">
+<html class="tape-flow tape-blaq">
 ```
 
 having `tape-flow` on your root or body to flow color thru the whole page
@@ -65,14 +65,14 @@ having `tape-flow` on your root or body to flow color thru the whole page
 ### tape anywhere
 
 ```html
-<aside class="tape-yellow">
+<aside class="tape-loud">
   <em>So</em> fresh!
 </aside>
 ```
 
 ### cool quote
 ```html
-<blockquote class="tape-blue">
+<blockquote class="tape-bluv">
   I said empty your mind.
   Be formless.
   Shapeless.
@@ -85,40 +85,40 @@ having `tape-flow` on your root or body to flow color thru the whole page
 </blockquote>
 ```
 
-### black link
+### blaq link
 
 ```html
-<a class="tape-black" href="#sample">tape</a>
+<a class="tape-blaq" href="#sample">tape</a>
 ```
 
-### black pink
+### blaq play
 
 ```html
-<a class="tape-black tape-pink" href="#sample">tape</a>
+<a class="tape-blaq tape-play" href="#sample">tape</a>
 ```
 
 ```html
-<aside class="tape-pink">
+<aside class="tape-play">
   Stick 4ever.
-  Apply <a class="tape-black" href="#sample">tape</a>
+  Apply <a class="tape-blaq" href="#sample">tape</a>
 </aside>
 ```
 
 ### neon link
 
 ```html
-<a class="tape-pink" href="#sample">tape</a>
+<a class="tape-play" href="#sample">tape</a>
 ```
 
 ```html
-<aside class="tape-pink tape-flow">
+<aside class="tape-play tape-flow">
   Stick 4ever.
   Apply <a href="#sample">tape</a>
 </aside>
 ```
 
 ```html
-<aside class="tape-pink">
+<aside class="tape-play">
   Stick 4ever.
   Apply <a class="tape-flow" href="#sample">tape</a>
 </aside>
@@ -127,22 +127,22 @@ having `tape-flow` on your root or body to flow color thru the whole page
 ### [freestyle](https://s9a.page)
 
 ```html
-<a href="#sample" class="tape-pink" style="--tape-hex:hotpink">hotpink</a>
+<a href="#sample" class="tape-play" style="--tape-hex:hotplay">hotplay</a>
 ```
 
 ```html
-<nav class="tape-flow" style="--tape-pink:deeppink">
-  <a href="#sample" class="tape-pink">deeppink</a>
+<nav class="tape-flow" style="--tape-play:deepplay">
+  <a href="#sample" class="tape-play">deepplay</a>
 </nav>
 ```
 
 ### creative tone
 
 ```html
-<label class="tape-pink">
-  <b>Create name</b>
-  <input class="tape-white">
-  <strong>Imagine :)</strong>
+<label class="tape-play">
+  <b>create name</b>
+  <input class="tape-watt">
+  <strong>imagine :)</strong>
 </label>
 ```
 
@@ -150,19 +150,19 @@ having `tape-flow` on your root or body to flow color thru the whole page
 
 ```html
 
-<label class="tape-yellow">
-  <b>Create name</b>
-  <input class="tape-white">
-  <strong>Taken :(</strong>
+<label class="tape-loud">
+  <b>create name</b>
+  <input class="tape-watt">
+  <strong>taken :(</strong>
 </label>
 ```
 
 ### peace tone
 
 ```html
-<label class="tape-blue">
+<label class="tape-bluv">
   <b>Create name</b>
-  <input class="tape-white">
+  <input class="tape-watt">
   <strong>Yes =)</strong>
 </label>
 ```
@@ -170,7 +170,7 @@ having `tape-flow` on your root or body to flow color thru the whole page
 ### saving grace
 
 ```html
-<button class="tape-flap tape-green">Save</button>
+<button class="tape-flap tape-luvu">Save</button>
 <button class="tape-flap tape-flow">Cancel</button>
 ```
 

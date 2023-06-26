@@ -8,10 +8,10 @@
 .imagine {
   --tape-remix: radial-gradient(
     circle at center,
-    var(--tape-green),
-    var(--tape-blue),
-    var(--tape-yellow),
-    var(--tape-pink)
+    var(--tape-luvu),
+    var(--tape-bluv),
+    var(--tape-loud),
+    var(--tape-play)
   );
 }
 
@@ -32,27 +32,31 @@
 }
 
 .shell {
-  --tape-white: seashell;
+  --tape-watt: seashell;
 }
 
 #hi:target {
-  --tape-blue: mediumslateblue;
-  --tape-pink: violet;
-  --tape-yellow: gold;
-  --tape-green: turquoise;
+  --tape-bluv: mediumslateblue;
+  --tape-play: violet;
+  --tape-loud: gold;
+  --tape-luvu: turquoise;
 }
 
 ::selection {
-  color: black;
+  color: seashell;
   background: blueviolet;
 }
 
-:focus {
+s, a { 
   text-decoration-style: dotted;
+}
+
+:focus {  
+  text-decoration-style: solid;
   outline: 2rem outset;
 }
 
-:hover {
+a:hover {
   text-decoration-style: double;
 }
 
@@ -72,10 +76,15 @@
 .dot::after { content: "." }
 .mime { margin-inline: var(--vol1) }
 .rime { text-align: end }
-html { border-bottom: 9vh double var(--tape-pink) }
+
+@media (orientation: portrait) {
+  .roam { writing-mode: vertical-rl } 
+}
+
+html { border-bottom: 9vh double var(--tape-play) }
 html { font-family: sans-serif }
 body { padding: 0 6vw; margin: auto }
-input { font: unset; display: table }
+input { font: unset; display: table; max-width: 100% }
 button { font: unset }
 figure { margin: auto; contain: layout }
 li { list-style: none }
@@ -87,25 +96,13 @@ s9a.page/volume
 */
 
 html {
-  --pump: 1;
-  --vol1: max(1rem, 1vw);
+  --pump: 0.809;
+  --vol1: max(1rem, 3vmax);
   --vol2: calc(2 * var(--pump) * var(--vol1));
-  --vol3: calc(3 * var(--pump) * var(--vol1));
-  --vol4: calc(4 * var(--pump) * var(--vol1));
-  --vol5: calc(5 * var(--pump) * var(--vol1));
-  --vol6: calc(6 * var(--pump) * var(--vol1));
-  --vol7: calc(7 * var(--pump) * var(--vol1));
-  --vol8: calc(8 * var(--pump) * var(--vol1));
-  --vol9: calc(9 * var(--pump) * var(--vol1));
+  --vol3: calc(var(--vol1) + var(--vol2));
 }
 
 .vol0 { font-size: 0 }
 .vol1 { font-size: var(--vol1) }
 .vol2 { font-size: var(--vol2) }
 .vol3 { font-size: var(--vol3) }
-.vol4 { font-size: var(--vol4) }
-.vol5 { font-size: var(--vol5) }
-.vol6 { font-size: var(--vol6) }
-.vol7 { font-size: var(--vol7) }
-.vol8 { font-size: var(--vol8) }
-.vol9 { font-size: var(--vol9) }

@@ -2,21 +2,21 @@
 
 :root {
   --tape-filter: none;
-  --tape-blue: #11dff1;
-  --tape-pink: #fbbfff;
-  --tape-yellow: #eee833;
-  --tape-green: #44f477;
-  --tape-black: #0e0e0e;
-  --tape-white: #e0e0e0;
+  --tape-bluv: #11dff1;
+  --tape-play: #fbbfff;
+  --tape-loud: #eee833;
+  --tape-luvu: #44f477;
+  --tape-blaq: #0e0e0e;
+  --tape-watt: #e0e0e0;
   --tape-hex: #e0e0e0;
   --tape-mix: transparent;
 }
 
-.tape-white { --tape-hex: var(--tape-white) }
-.tape-green { --tape-hex: var(--tape-green) }
-.tape-yellow { --tape-hex: var(--tape-yellow) }
-.tape-pink { --tape-hex: var(--tape-pink) }
-.tape-blue { --tape-hex: var(--tape-blue) }
+.tape-watt { --tape-hex: var(--tape-watt) }
+.tape-luvu { --tape-hex: var(--tape-luvu) }
+.tape-loud { --tape-hex: var(--tape-loud) }
+.tape-play { --tape-hex: var(--tape-play) }
+.tape-bluv { --tape-hex: var(--tape-bluv) }
 .tape-flat { border-color: transparent }
 .tape-flap { border-color: currentColor }
 .tape-flow { --tape-remix: none }
@@ -25,22 +25,22 @@
   color: inherit;
 }
 
-.tape-black,
-.tape-blue,
-.tape-pink,
-.tape-yellow,
-.tape-green,
-.tape-white {
+.tape-blaq,
+.tape-bluv,
+.tape-play,
+.tape-loud,
+.tape-luvu,
+.tape-watt {
   --tape-mix: var(--tape-hex);
   --tape-remix: none;
-  color: var(--tape-black) !important;
+  color: var(--tape-blaq) !important;
   background-color: var(--tape-mix) !important;
   background-image: var(--tape-remix);
   filter: var(--tape-filter);
 }
 
-.tape-black {
-  --tape-mix: var(--tape-black);
+.tape-blaq {
+  --tape-mix: var(--tape-blaq);
   color: var(--tape-hex) !important;
 }
 
