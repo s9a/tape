@@ -1,4 +1,4 @@
-# zlib license <br> [&copy; s9a](https://github.com/s9a)
+# zlib license <br> [∞](https://github.com/s9a)
 
 ```
 This software is provided 'as-is', without any express or implied
