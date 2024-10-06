@@ -61,6 +61,7 @@ a:hover {
 }
 
 /* N.E.R.D. ÷ MCR */
+.omg:hover { cursor: grab }
 .mold { font: unset }
 .bold { font-weight: bold }
 .moan { margin: auto }

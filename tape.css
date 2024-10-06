@@ -36,6 +36,7 @@
   color: var(--tape-blaq) !important;
   background-color: var(--tape-mix) !important;
   background-image: var(--tape-remix);
+  fill: var(--tape-mix);
   filter: var(--tape-filter);
 }
 

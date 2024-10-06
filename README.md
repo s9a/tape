@@ -174,15 +174,29 @@ having `tape-flow` on your root or body to flow color thru the whole page
 <button class="tape-flap tape-flow">Cancel</button>
 ```
 
-## [imagine](https://developer.mozilla.org/CSS/gradient)
+## [imagine](https://s9a.page/tape#imagine)
+
+
+### [gradients](https://developer.mozilla.org/Web/CSS/gradient)
 
 ```css
-:root {
-  --tape-remix: radial-gradient(coral, violet);
-}
+--tape-remix: linear-gradient(
+  var(--tape-play),
+  var(--tape-loud),
+  var(--tape-luvu),
+  var(--tape-bluv)
+);
 ```
 
-## [filter](https://developer.mozilla.org/CSS/filter)
+```css
+--tape-remix: radial-gradient(coral, violet);
+```
+
+```css
+--tape-remix: conic-gradient(plum, coral, pink);
+```
+
+## [filter](https://developer.mozilla.org/Web/CSS/filter)
 
 ```css
 :focus {
@@ -204,6 +218,18 @@ having `tape-flow` on your root or body to flow color thru the whole page
 .shout {
   --tape-filter: hue-rotate(240deg);
 }
+```
+
+## [fill](https://developer.mozilla.org/Web/CSS/fill)
+
+[`fill`](https://s9a.page/tape#fill) [SVG shapes](https://s9a.page/tape/tape.svg) [with colors](#palette)
+
+```svg
+<circle r="111" fill="var(--tape-play)" />
+```
+
+```svg
+<circle r="333" class="tape-play" />
 ```
 
 ## [producing](https://s9a.page/tapes)

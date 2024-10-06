@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 800 500">
+  <title>tape sampler</title>
+  <style>
+    :root {
+      --tape-bluv: #11dff1;
+      --tape-play: #fbbfff;
+      --tape-loud: #eee833;
+      --tape-luvu: #44f477;
+      --tape-blaq: #0e0e0e;
+      --tape-watt: #e0e0e0;
+      background: var(--tape-blaq);
+    }
+  </style>
+  <rect fill="var(--tape-bluv)" x="0" width="800" height="500" />
+  <circle fill="var(--tape-play)" cx="220" cy="250" r="360" />
+  <circle fill="var(--tape-watt)" cx="220" cy="250" r="120" />
+  <circle fill="var(--tape-loud)" cx="220" cy="250" r="60" />
+  <circle fill="var(--tape-bluv)" cx="580" cy="250" r="120" />
+  <circle fill="var(--tape-luvu)" cx="580" cy="250" r="60" />
+</svg>
