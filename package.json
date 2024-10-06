@@ -1,6 +1,6 @@
 {
   "name": "@s9a/tape",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "vivid colors that stick to:ur gums",
   "main": "tape.css",
   "license": "Zlib",
@@ -22,6 +22,7 @@
     "color system",
     "colorful",
     "contrast",
+    "graffiti",
     "palette",
     "colours",
     "colors",
