@@ -33,6 +33,7 @@
 
 ## [distribute](../../releases)
 
+* `.tape-fill` `fill` graphic like palette
 * `.tape-flow` flow color within scope
 * `.tape-skip` skip color within flow
 * `.tape-flat` border `transparent`

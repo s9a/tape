@@ -17,6 +17,7 @@
 .tape-loud { --tape-hex: var(--tape-loud) }
 .tape-play { --tape-hex: var(--tape-play) }
 .tape-bluv { --tape-hex: var(--tape-bluv) }
+.tape-fill { fill: var(--tape-mix) }
 .tape-flat { border-color: transparent }
 .tape-flap { border-color: currentColor }
 .tape-flow { --tape-remix: none }
